@@ -1,0 +1,102 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: wheat;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.header {
+  font-size: 4em;
+}
+
+.bornav{
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+.txtnavb{
+  background: rgb(223, 202, 12);
+}
+
+.img{
+  text-align: center;
+  color:white;
+  text-shadow:2px 2px 3px black, 0 0 2em wheat, 0 0 2em wheat ;
+  background-image: url("../images/fdo1.jpg");
+  
+  padding-top: 0.5em;
+  font-style: italic;
+}
+.inicio{
+  text-align: center;
+  margin: 1em;
+  color:rgb(78, 71, 33);
+}
+
+.cardinicio{
+  background:rgb(78, 71, 33);
+  color:rgb(223, 202, 12);
+  border-radius: 1em;
+  padding: 0.5em;
+  box-sizing: border-box;
+  margin-bottom: 0.5em;
+}
+
+.cardinicio h5{
+  text-align: center;
+
+}
+
+.imgart{
+  border: rgb(78, 71, 33) solid 1em;
+  margin: 1em;
+  border-radius: 1em;
+}
+
+.fdotarjeta{
+  background:  rgb(78, 71, 33);
+  padding-bottom: 1em;
+}
+
+.tarjeta{
+  background: rgb(223, 184, 12);
+  border:rgb(223, 184, 12) solid 5px;
+}
+
+.hvinc{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.hvinc:hover{
+  color: rgb(78, 71, 33);
+  font-style: italic ;
+}
+
+.contacto{
+  padding: 1em;
+}
+
+.formulario{
+  font-size: 1.3em;
+  padding: 1.8em;
+}
+
+.consulta{
+  width: 5em;
+  font-size: 1.5em;
+}
+
+.imgcontact{
+  overflow: hidden;
+}
+.footer{
+  background:  rgb(78, 71, 33);
+  color: rgb(223, 184, 12);
+  font-size: 1.2em;
+  text-align: center;
+  height: 4em;
+  margin-top: 1em;
+}

@@ -1,0 +1,19 @@
+
+<div class="container">
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 fdotarjeta">
+        {{#each articulos}}
+            <div class="col">
+                <a class="links hvinc" href="/tecnologia/{{id}}" title="Ver {{nombre}}">
+                    <div class="card h-100 tarjeta">
+                        <img  src="/images/{{imagen}}" class="card-img" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">{{nombre}}</h5>
+                            
+                        </div>
+                    </div>
+                </a>
+            </div>
+        {{/each}}
+    </div>
+</div>
